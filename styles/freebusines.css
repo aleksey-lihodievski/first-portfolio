@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    height: 40px;
+    width:40px;
+    background-color: rgb(6, 4, 139);
+}
+ul{
+    margin-left: auto;
+    justify-content: space-around;
+    width:65%;
+    display: flex;
+    
+}
+section{
+    display: flex;
+    justify-content:center;
+}
+.container{
+    width:1200px;
+}
+.hu{
+    display: flex;
+    height:95px;
+    align-items: center;
+}
+.list{
+    height:32px;
+    padding-left: 19px;
+    padding-right: 19px;
+    display: flex;
+    align-items:center;
+    border-radius: 4px;
+}
+.list:hover{
+    background-color: #FFBB42;
+}
+.advantages{
+    background-color: #709DCA;
+}
